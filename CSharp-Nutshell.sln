@@ -119,51 +119,65 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16. Target-typed new expres
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Expressions and Operators", "09. Expressions and Operators", "{6E95C501-2B23-41F0-8C5A-DD99FD785F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Assignment Expressions", "01. Assignment Expressions\01. Assignment Expressions.csproj", "{BFAC7425-3080-4235-845E-D65D466D47FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Assignment Expressions", "01. Assignment Expressions\01. Assignment Expressions.csproj", "{BFAC7425-3080-4235-845E-D65D466D47FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Precedence", "02. Precedence\02. Precedence.csproj", "{DFBCFFE1-82C6-47A1-8882-EC26A6F02200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Precedence", "02. Precedence\02. Precedence.csproj", "{DFBCFFE1-82C6-47A1-8882-EC26A6F02200}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Null Operators", "10. Null Operators", "{85FC56AE-3D63-4D33-8FA7-723C4DC63EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Null Coalescing Operator", "01. Null Coalescing Operator\01. Null Coalescing Operator.csproj", "{1A4763BE-BF1B-4F6E-AF12-31D3A55FC270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Null Coalescing Operator", "01. Null Coalescing Operator\01. Null Coalescing Operator.csproj", "{1A4763BE-BF1B-4F6E-AF12-31D3A55FC270}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Null-Conditional Operator", "02. Null-Conditional Operator\02. Null-Conditional Operator.csproj", "{69CD8BB4-4C15-4F90-83C2-188008F12FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Null-Conditional Operator", "02. Null-Conditional Operator\02. Null-Conditional Operator.csproj", "{69CD8BB4-4C15-4F90-83C2-188008F12FD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Statements", "11. Statements", "{1E01094D-4489-4932-9718-D16050D41705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Declaration Statements", "01. Declaration Statements\01. Declaration Statements.csproj", "{48221162-C91D-44E6-B430-11FE2366EE20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Declaration Statements", "01. Declaration Statements\01. Declaration Statements.csproj", "{48221162-C91D-44E6-B430-11FE2366EE20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Expression Statements", "02. Expression Statements\02. Expression Statements.csproj", "{A0D5C4EF-245D-49D7-9F79-F30C9444F4B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Expression Statements", "02. Expression Statements\02. Expression Statements.csproj", "{A0D5C4EF-245D-49D7-9F79-F30C9444F4B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. switch Statements", "03. switch Statements\03. switch Statements.csproj", "{F8A30E97-8275-43B7-946D-426B58A1FDE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. switch Statements", "03. switch Statements\03. switch Statements.csproj", "{F8A30E97-8275-43B7-946D-426B58A1FDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. foreach loop", "04. foreach loop\04. foreach loop.csproj", "{9F5DBE32-4C91-45E2-AA3B-BDB87A91CF5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. foreach loop", "04. foreach loop\04. foreach loop.csproj", "{9F5DBE32-4C91-45E2-AA3B-BDB87A91CF5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. Namespaces", "12. Namespaces", "{A9F2ADE8-E2B3-447B-9DD4-1F55BC3A4206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Nesting namespaces", "01. Nesting namespaces\01. Nesting namespaces.csproj", "{A2A1BA06-3EDE-4E56-9572-A9659FCF7F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Nesting namespaces", "01. Nesting namespaces\01. Nesting namespaces.csproj", "{A2A1BA06-3EDE-4E56-9572-A9659FCF7F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Using directive", "02. Using directive\02. Using directive.csproj", "{65C52489-4B7B-48B5-B01E-F8516D2C3629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Using directive", "02. Using directive\02. Using directive.csproj", "{65C52489-4B7B-48B5-B01E-F8516D2C3629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Global using directive", "03. Global using directive\03. Global using directive.csproj", "{4BFEA17A-4C29-436F-BF18-CEF8AFAE6AB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Global using directive", "03. Global using directive\03. Global using directive.csproj", "{4BFEA17A-4C29-436F-BF18-CEF8AFAE6AB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Using static", "04. Using static\04. Using static.csproj", "{B321647F-3976-4696-9681-E0344BC3CA85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Using static", "04. Using static\04. Using static.csproj", "{B321647F-3976-4696-9681-E0344BC3CA85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Aliasing types and namespaces", "05. Aliasing types and namespaces\05. Aliasing types and namespaces.csproj", "{7B7ED201-0334-410A-9F83-2CA9BEC867B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Aliasing types and namespaces", "05. Aliasing types and namespaces\05. Aliasing types and namespaces.csproj", "{7B7ED201-0334-410A-9F83-2CA9BEC867B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Namespace alias qualifier", "06. Namespace alias qualifier\06. Namespace alias qualifier.csproj", "{C1BD80DE-701D-4CAE-8DD6-972DCB7D4626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Namespace alias qualifier", "06. Namespace alias qualifier\06. Namespace alias qualifier.csproj", "{C1BD80DE-701D-4CAE-8DD6-972DCB7D4626}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Rules - Name hiding", "07. Rules - Name hiding\07. Rules - Name hiding.csproj", "{5A222B0F-53D2-4F29-BBAD-688837AD319D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Rules - Name hiding", "07. Rules - Name hiding\07. Rules - Name hiding.csproj", "{5A222B0F-53D2-4F29-BBAD-688837AD319D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 03. Creating Types in CSharp", "Chapter 03. Creating Types in CSharp", "{CB537A75-CA74-4E46-9C66-21BC8F91A797}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Classes", "01 Classes", "{84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Fields", "01. Fields\01. Fields.csproj", "{456C586B-80BA-4F46-8952-62CB5F370C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Fields", "01. Fields\01. Fields.csproj", "{456C586B-80BA-4F46-8952-62CB5F370C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Fields - readonly", "02. Fields - readonly\02. Fields - readonly.csproj", "{C5956C8A-36DA-4458-8704-75CB39992F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Fields - readonly", "02. Fields - readonly\02. Fields - readonly.csproj", "{C5956C8A-36DA-4458-8704-75CB39992F73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Constants", "03. Constants\03. Constants.csproj", "{94744411-ED71-4DC7-B9C5-DD34A3A9E423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Constants", "03. Constants\03. Constants.csproj", "{94744411-ED71-4DC7-B9C5-DD34A3A9E423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Methods - Expression-bodied", "04. Methods - Expression-bodied\04. Methods - Expression-bodied.csproj", "{D240F3E9-956A-45C7-8D5C-AE16EB34DE77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Local methods", "05. Local methods\05. Local methods.csproj", "{681A5108-B3A3-4C89-A1DE-804BCA6C7AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Local methods - with top-level statements", "06. Local methods - with top-level statements\06. Local methods - with top-level statements.csproj", "{5130AD07-69D6-4ACB-893A-7CD19210E7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Methods - Overloading", "07. Methods - Overloading\07. Methods - Overloading.csproj", "{62D123E1-2AA3-4A7D-ADB0-E20016EED78D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Constructors", "08. Constructors\08. Constructors.csproj", "{29173FBB-5FC9-4CAF-B9F5-E020C136ACD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Constructors - Overloading", "09. Constructors - Overloading\09. Constructors - Overloading.csproj", "{63F9442E-7D72-46AE-A328-23B60508FB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Constructors - Nonpublic", "10. Constructors - Nonpublic\10. Constructors - Nonpublic.csproj", "{9FE0DFDF-61DA-42B0-87B9-2B99EB66B8B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -435,6 +449,34 @@ Global
 		{94744411-ED71-4DC7-B9C5-DD34A3A9E423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94744411-ED71-4DC7-B9C5-DD34A3A9E423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94744411-ED71-4DC7-B9C5-DD34A3A9E423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D240F3E9-956A-45C7-8D5C-AE16EB34DE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D240F3E9-956A-45C7-8D5C-AE16EB34DE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D240F3E9-956A-45C7-8D5C-AE16EB34DE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D240F3E9-956A-45C7-8D5C-AE16EB34DE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681A5108-B3A3-4C89-A1DE-804BCA6C7AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681A5108-B3A3-4C89-A1DE-804BCA6C7AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681A5108-B3A3-4C89-A1DE-804BCA6C7AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681A5108-B3A3-4C89-A1DE-804BCA6C7AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5130AD07-69D6-4ACB-893A-7CD19210E7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5130AD07-69D6-4ACB-893A-7CD19210E7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5130AD07-69D6-4ACB-893A-7CD19210E7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5130AD07-69D6-4ACB-893A-7CD19210E7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D123E1-2AA3-4A7D-ADB0-E20016EED78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D123E1-2AA3-4A7D-ADB0-E20016EED78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D123E1-2AA3-4A7D-ADB0-E20016EED78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D123E1-2AA3-4A7D-ADB0-E20016EED78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29173FBB-5FC9-4CAF-B9F5-E020C136ACD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29173FBB-5FC9-4CAF-B9F5-E020C136ACD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29173FBB-5FC9-4CAF-B9F5-E020C136ACD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29173FBB-5FC9-4CAF-B9F5-E020C136ACD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F9442E-7D72-46AE-A328-23B60508FB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F9442E-7D72-46AE-A328-23B60508FB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F9442E-7D72-46AE-A328-23B60508FB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F9442E-7D72-46AE-A328-23B60508FB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE0DFDF-61DA-42B0-87B9-2B99EB66B8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE0DFDF-61DA-42B0-87B9-2B99EB66B8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE0DFDF-61DA-42B0-87B9-2B99EB66B8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE0DFDF-61DA-42B0-87B9-2B99EB66B8B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -519,6 +561,13 @@ Global
 		{456C586B-80BA-4F46-8952-62CB5F370C34} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
 		{C5956C8A-36DA-4458-8704-75CB39992F73} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
 		{94744411-ED71-4DC7-B9C5-DD34A3A9E423} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
+		{D240F3E9-956A-45C7-8D5C-AE16EB34DE77} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
+		{681A5108-B3A3-4C89-A1DE-804BCA6C7AE8} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
+		{5130AD07-69D6-4ACB-893A-7CD19210E7BA} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
+		{62D123E1-2AA3-4A7D-ADB0-E20016EED78D} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
+		{29173FBB-5FC9-4CAF-B9F5-E020C136ACD8} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
+		{63F9442E-7D72-46AE-A328-23B60508FB53} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
+		{9FE0DFDF-61DA-42B0-87B9-2B99EB66B8B8} = {84DDB05F-94F0-46E0-BDF7-D23B2AF2F40C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D5BA80C-E6AC-4096-B713-398A5ACF365E}
