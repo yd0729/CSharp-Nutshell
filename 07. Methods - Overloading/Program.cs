@@ -1,16 +1,16 @@
 ﻿class Program
 {
 	// We can overload Foo as follows:
-	void Func(int x) { Console.WriteLine("int"); }
-	void Func(double x) { Console.WriteLine("double"); }
-	void Func(int x, float y) { Console.WriteLine("int, float"); }
-	void Func(float x, int y) { Console.WriteLine("float, int"); }
+	static void Func(int x) { Console.WriteLine("int"); }
+	static void Func(double x) { Console.WriteLine("double"); }
+	static void Func(int x, float y) { Console.WriteLine("int, float"); }
+	static void Func(float x, int y) { Console.WriteLine("float, int"); }
 
 	// We have to use a Main() method here to test this,
 	// because methods in top-level statements are *local methods*
 	// which cannot be overloaded.
 
-	void Main()
+	public static void Main()
 	{
 		Func(123);       // int
 		Func(123.0);     // double

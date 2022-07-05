@@ -1,4 +1,6 @@
-﻿namespace Outer
+﻿var f = new Outer.Foo();
+
+namespace Outer
 {
 	class Foo { }
 

@@ -1,6 +1,8 @@
 ﻿// The presence of an accessiblity modifier on a partial method denotes an 'extended partial method'.
 // Extended partial methods *must* have implementations:
 
+var t = new Test();
+
 public partial class Test
 {
 	public partial void M1();    // Extended partial method

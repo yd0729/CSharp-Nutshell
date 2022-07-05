@@ -1,0 +1,18 @@
+﻿// A class declared as abstract can never be instantiated. Instead, only its concrete subclasses
+// can be instantiated. Abstract classes are able to define abstract members.
+
+var s = new Stock { SharesOwned = 200, CurrentPrice = 123.45M }.NetValue;
+
+public abstract class Asset		// Note abstract keyword
+{
+    public abstract decimal NetValue { get; }	// Note empty implementation
+}
+
+public class Stock : Asset
+{
+    public long SharesOwned;
+    public decimal CurrentPrice;
+
+    // Override like a virtual method.
+    public override decimal NetValue => CurrentPrice * SharesOwned; 
+}

@@ -1,11 +1,11 @@
 ﻿class Program
 {
-	void Main()
+	public static void Main()
 	{
 		WriteCubes();
 	}
 
-	void WriteCubes()
+	static void WriteCubes()
 	{
 		Console.WriteLine(Cube(3));
 		Console.WriteLine(Cube(4));

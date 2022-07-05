@@ -4,8 +4,8 @@
 	{
 		static void Main()
 		{
-			new A.B().Dump();           // Instantiate nested class B
-			new global::A.B().Dump();   // Instantiate class B in namespace A
+			new A.B();           // Instantiate nested class B
+			new global::A.B();   // Instantiate class B in namespace A
 		}
 
 		public class B { }            // Nested type

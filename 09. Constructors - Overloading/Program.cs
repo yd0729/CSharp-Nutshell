@@ -8,3 +8,11 @@ public class Wine
 	public Wine(decimal price) { Price = price; }
 	public Wine(decimal price, int year) : this(price) { Year = year; }
 }
+
+class Program
+{
+	public static void Main()
+	{
+		
+	}
+}
