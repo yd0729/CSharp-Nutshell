@@ -4,22 +4,24 @@ var stock = new Stock { CurrentPrice = 50, SharesOwned = 100 };
 
 public class Stock
 {
-	decimal currentPrice;           // The private "backing" field
-	public decimal CurrentPrice     // The public property
-	{
-		get { return currentPrice; }
-		set { currentPrice = value; }
-	}
+    decimal currentPrice; // The private "backing" field
 
-	decimal sharesOwned;           // The private "backing" field
-	public decimal SharesOwned     // The public property
-	{
-		get { return sharesOwned; }
-		set { sharesOwned = value; }
-	}
+    public decimal CurrentPrice // The public property
+    {
+        get { return currentPrice; }
+        set { currentPrice = value; }
+    }
 
-	public decimal Worth
-	{
-		get { return currentPrice * sharesOwned; }
-	}
+    decimal sharesOwned; // The private "backing" field
+
+    public decimal SharesOwned // The public property
+    {
+        get { return sharesOwned; }
+        set { sharesOwned = value; }
+    }
+
+    public decimal Worth
+    {
+        get { return currentPrice * sharesOwned; }
+    }
 }

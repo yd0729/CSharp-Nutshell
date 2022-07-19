@@ -2,9 +2,12 @@
 
 internal class Program
 {
-    private static void Main() { MainMain ("one"); }
+    private static void Main()
+    {
+        MainMain("one");
+    }
 
-    private static void MainMain (params string[] args)
+    private static void MainMain(params string[] args)
     {
         try
         {
@@ -23,9 +26,8 @@ internal class Program
         {
             Console.WriteLine("You've given me more than a byte!");
         }
-        catch  // 捕获所有异常
+        catch // 捕获所有异常
         {
-            
         }
     }
 }

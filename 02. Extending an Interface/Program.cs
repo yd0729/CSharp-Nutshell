@@ -3,5 +3,12 @@
 IRedoable r = null;
 IUndoable u = r;
 
-public interface IUndoable { void Undo(); }
-public interface IRedoable : IUndoable { void Redo(); }
+public interface IUndoable
+{
+    void Undo();
+}
+
+public interface IRedoable : IUndoable
+{
+    void Redo();
+}

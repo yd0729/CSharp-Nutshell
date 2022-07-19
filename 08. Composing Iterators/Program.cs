@@ -2,10 +2,10 @@
 
 foreach (int fib in EvenNumbersOnly(Fibs(6)))
 {
-    Console.WriteLine (fib);
+    Console.WriteLine(fib);
 }
 
-IEnumerable<int> Fibs (int fibCount)
+IEnumerable<int> Fibs(int fibCount)
 {
     for (int i = 0, prevFib = 1, curFib = 1; i < fibCount; i++)
     {
@@ -16,7 +16,7 @@ IEnumerable<int> Fibs (int fibCount)
     }
 }
 
-IEnumerable<int> EvenNumbersOnly (IEnumerable<int> sequence)
+IEnumerable<int> EvenNumbersOnly(IEnumerable<int> sequence)
 {
     foreach (int x in sequence)
     {

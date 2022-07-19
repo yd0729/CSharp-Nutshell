@@ -4,12 +4,20 @@ class Program
 {
     public class TopLevel
     {
-        public class Nested { }               // Nested class
-        public enum Color { Red, Blue, Tan }  // Nested enum
+        public class Nested
+        {
+        } // Nested class
+
+        public enum Color
+        {
+            Red,
+            Blue,
+            Tan
+        } // Nested enum
     }
 
     private static void Main()
     {
-        TopLevel.Color color = TopLevel.Color.Red;	
+        TopLevel.Color color = TopLevel.Color.Red;
     }
 }

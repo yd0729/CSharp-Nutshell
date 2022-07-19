@@ -4,4 +4,4 @@
 int i = 3;
 object boxed = i;
 i = 5;
-Console.WriteLine (boxed);    // 3
+Console.WriteLine(boxed); // 3

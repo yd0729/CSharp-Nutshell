@@ -1,16 +1,16 @@
 ﻿// finally blocks are typically used for cleanup code:
 
-File.WriteAllText ("file.txt", "test");
-ReadFile ();
+File.WriteAllText("file.txt", "test");
+ReadFile();
 
 void ReadFile()
 {
-    StreamReader reader = null;    // In System.IO namespace
+    StreamReader reader = null; // In System.IO namespace
     try
     {
-        reader = File.OpenText ("file.txt");
+        reader = File.OpenText("file.txt");
         if (reader.EndOfStream) return;
-        Console.WriteLine (reader.ReadToEnd());
+        Console.WriteLine(reader.ReadToEnd());
     }
     finally
     {

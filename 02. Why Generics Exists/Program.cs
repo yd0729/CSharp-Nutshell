@@ -2,17 +2,18 @@
 // writing a general-purpose stack would require a solution such as this:
 
 // Now suppose we want a stack that stores just integers:
+
 ObjectStack stack = new ObjectStack();
 
 // It's easy to make mistakes:
-stack.Push ("s");          // Wrong type, but no error!
-int i = (int)stack.Pop();     // Downcast - runtime error!
+stack.Push("s"); // Wrong type, but no error!
+int i = (int)stack.Pop(); // Downcast - runtime error!
 
 // 功能上相当于 Stack<object>
 public class ObjectStack
 {
     int position;
     object[] data = new object [10];
-    public void Push (object obj) => data [position++] = obj;
-    public object Pop() => data [--position];
+    public void Push(object obj) => data[position++] = obj;
+    public object Pop() => data[--position];
 }

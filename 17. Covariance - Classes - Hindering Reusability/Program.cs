@@ -3,19 +3,30 @@
 Stack<Bear> bears = new Stack<Bear>();
 // ZooCleaner.Wash (bears);				// Will not compile!
 
-class Animal {}
-class Bear : Animal {}
-class Camel : Animal {}
+class Animal
+{
+}
 
-public class Stack<T>   // A simple Stack implementation
+class Bear : Animal
+{
+}
+
+class Camel : Animal
+{
+}
+
+public class Stack<T> // A simple Stack implementation
 {
     int position;
     T[] data = new T[100];
-    public void Push (T obj) => data[position++] = obj;
-    public T Pop()           => data [--position];
+    public void Push(T obj) => data[position++] = obj;
+    public T Pop() => data[--position];
 }
 
 static class ZooCleaner
 {
-    public static void Wash (Stack<Animal> animals) { /*...*/ }
+    public static void Wash(Stack<Animal> animals)
+    {
+        /*...*/
+    }
 }

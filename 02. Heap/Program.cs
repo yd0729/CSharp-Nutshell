@@ -11,4 +11,4 @@ StringBuilder ref2 = new StringBuilder("object2");
 StringBuilder ref3 = ref2;
 // The StringBuilder referenced by ref2 is NOT yet eligible for GC.
 
-Console.WriteLine(ref3);                   // object2
+Console.WriteLine(ref3); // object2

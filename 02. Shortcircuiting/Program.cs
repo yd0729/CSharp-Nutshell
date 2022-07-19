@@ -6,7 +6,6 @@ using System.Text;
 StringBuilder sb = null;
 
 if (sb != null && sb.Length > 0)
-	Console.WriteLine("sb has data");
+    Console.WriteLine("sb has data");
 else
-	Console.WriteLine("sb is null or empty");
-
+    Console.WriteLine("sb is null or empty");

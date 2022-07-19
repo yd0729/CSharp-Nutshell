@@ -8,4 +8,4 @@ short x = 1, y = 1;
 // In this case, x and y are implicitly converted to int so that the addition can be performed.
 // To make this compile, we must add an explicit cast:
 
-short z = (short)(x + y);   // OK
+short z = (short)(x + y); // OK

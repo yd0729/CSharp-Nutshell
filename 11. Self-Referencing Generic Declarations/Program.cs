@@ -8,7 +8,7 @@ public class Balloon : IEquatable<Balloon>
     public string Color { get; set; }
     public int CC { get; set; }
 
-    public bool Equals (Balloon b)
+    public bool Equals(Balloon b)
     {
         if (b == null) return false;
         return b.Color == Color && b.CC == CC;

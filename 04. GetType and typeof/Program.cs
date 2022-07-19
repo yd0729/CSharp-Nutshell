@@ -4,10 +4,13 @@
 //  • Use the typeof operator on a type name.
 
 Point p = new Point();
-Console.WriteLine (p.GetType().Name);             // Point
-Console.WriteLine (typeof (Point).Name);          // Point
-Console.WriteLine (p.GetType() == typeof (Point)); // True
-Console.WriteLine (p.X.GetType().Name);           // Int32
-Console.WriteLine (p.Y.GetType().FullName);       // System.Int32
+Console.WriteLine(p.GetType().Name); // Point
+Console.WriteLine(typeof(Point).Name); // Point
+Console.WriteLine(p.GetType() == typeof(Point)); // True
+Console.WriteLine(p.X.GetType().Name); // Int32
+Console.WriteLine(p.Y.GetType().FullName); // System.Int32
 
-public class Point { public int X, Y; }
+public class Point
+{
+    public int X, Y;
+}

@@ -12,7 +12,7 @@ public class Asset
 public class House : Asset
 {
     public decimal Mortgage;
-	
+
     // We can return House when overriding:
     public override House Clone() => new House { Name = Name, Mortgage = Mortgage };
 }

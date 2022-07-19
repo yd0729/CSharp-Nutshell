@@ -1,18 +1,19 @@
 ﻿// A static constructor executes once per type, rather than once per instance:
 
 // Type is initialized only once
+
 new Test();
 new Test();
 new Test();
 
-Console.WriteLine(Foo2.X);   // 3
+Console.WriteLine(Foo2.X); // 3
 
 class Test
 {
-	static Test()
-	{
-		Console.WriteLine("Type Initialized");
-	}
+    static Test()
+    {
+        Console.WriteLine("Type Initialized");
+    }
 }
 
 // Static field initializers run just before the static constructor is called:
@@ -23,14 +24,14 @@ class Test
 
 class Foo
 {
-	public static int X = Y;    // 0
-	public static int Y = 3;    // 3
+    public static int X = Y; // 0
+    public static int Y = 3; // 3
 }
 
 class Foo2
 {
-	public static Foo2 Instance = new Foo2();
-	public static int X = 3;
+    public static Foo2 Instance = new Foo2();
+    public static int X = 3;
 
-	Foo2() => Console.WriteLine(X);   // 0
+    Foo2() => Console.WriteLine(X); // 0
 }

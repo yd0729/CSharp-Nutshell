@@ -6,11 +6,11 @@ Console.WriteLine(o.Name);
 
 class Octopus
 {
-	public readonly string Name;
-	public readonly int Legs = 8;
+    public readonly string Name;
+    public readonly int Legs = 8;
 
-	public Octopus(string name)
-	{
-		Name = name;
-	}
+    public Octopus(string name)
+    {
+        Name = name;
+    }
 }

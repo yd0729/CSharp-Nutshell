@@ -4,11 +4,11 @@
 // foo.Log ("message")   // Won't compile
 
 // But we can call it via the interface:
-((ILogger)logger).Log ("message");
+((ILogger)logger).Log("message");
 
 interface ILogger
 {
-    void Log (string text) => Console.WriteLine (text);
+    void Log(string text) => Console.WriteLine(text);
 }
 
 class Logger : ILogger

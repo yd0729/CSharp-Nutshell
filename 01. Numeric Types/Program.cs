@@ -1,4 +1,5 @@
 ﻿// Numeric Types
+
 {
     // The signed integral types are sbyte, short, int, long:
     int i = -1;
@@ -29,11 +30,11 @@
     double doubleMillion = 1E06;
 
     // Numeric literal type inference:
-    Console.WriteLine(1.0.GetType());  // Double  (double)
-    Console.WriteLine(1E06.GetType());  // Double  (double)
-    Console.WriteLine(1.GetType());  // Int32   (int)
-    Console.WriteLine(0xF0000000.GetType());  // UInt32  (uint)
-    Console.WriteLine(0x100000000.GetType());  // Int64   (long)
+    Console.WriteLine(1.0.GetType()); // Double  (double)
+    Console.WriteLine(1E06.GetType()); // Double  (double)
+    Console.WriteLine(1.GetType()); // Int32   (int)
+    Console.WriteLine(0xF0000000.GetType()); // UInt32  (uint)
+    Console.WriteLine(0x100000000.GetType()); // Int64   (long)
 }
 
 // Numeric Suffixes
@@ -46,12 +47,12 @@
     //   L = long
     //   UL = ulong
 
-    long i = 5;     // No suffix needed: Implicit lossless conversion from int literal to long
+    long i = 5; // No suffix needed: Implicit lossless conversion from int literal to long
 
     // The D suffix is redundant in that all literals with a decimal point are inferred to be double:
     double x = 4.0;
 
     // The F and M suffixes are the most useful:
-    float f = 4.5F;         // Will not compile without the F suffix
-    decimal d = -1.23M;		// Will not compile without the M suffix.
+    float f = 4.5F; // Will not compile without the F suffix
+    decimal d = -1.23M; // Will not compile without the M suffix.
 }

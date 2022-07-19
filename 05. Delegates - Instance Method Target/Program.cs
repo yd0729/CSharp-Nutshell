@@ -4,16 +4,16 @@
 MyReporter r = new MyReporter();
 r.Prefix = "%Complete: ";
 ProgressReporter p = r.ReportProgress;
-p(99);                                 // 99
-Console.WriteLine (p.Target == r);     // True
-Console.WriteLine (p.Method);          // Void InstanceProgress(Int32)
+p(99); // 99
+Console.WriteLine(p.Target == r); // True
+Console.WriteLine(p.Method); // Void InstanceProgress(Int32)
 r.Prefix = "";
-p(99);                                 // 99
+p(99); // 99
 
-public delegate void ProgressReporter (int percentComplete);
+public delegate void ProgressReporter(int percentComplete);
 
 class MyReporter
 {
     public string Prefix = "";
-    public void ReportProgress (int percentComplete) => Console.WriteLine (Prefix + percentComplete);
+    public void ReportProgress(int percentComplete) => Console.WriteLine(Prefix + percentComplete);
 }

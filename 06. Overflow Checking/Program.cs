@@ -5,12 +5,12 @@ int b = 1000000;
 
 // The following code throws OverflowExceptions:
 
-int c = checked(a * b);      // Checks just the expression.
+int c = checked(a * b); // Checks just the expression.
 
 // Checks all expressions in statement block:
 checked
 {
-	int c2 = a * b;
+    int c2 = a * b;
 }
 
 // Compile-time overflows are special in that they're checked by default:
@@ -19,4 +19,4 @@ checked
 
 // You have to use unchecked to disable this:
 
-int y = unchecked(int.MaxValue + 1);   // No errors
+int y = unchecked(int.MaxValue + 1); // No errors

@@ -1,9 +1,13 @@
 ﻿public class TopLevel
 {
     static int x;
+
     public class Nested
     {
-        public static void Foo() { Console.WriteLine (TopLevel.x); }
+        public static void Foo()
+        {
+            Console.WriteLine(TopLevel.x);
+        }
     }
 }
 

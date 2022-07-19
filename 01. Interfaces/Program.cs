@@ -3,7 +3,7 @@
 
 IEnumerator e = new Countdown();
 while (e.MoveNext())
-    Console.Write (e.Current);      // 109876543210
+    Console.Write(e.Current); // 109876543210
 
 public interface IEnumerator
 {
@@ -17,7 +17,11 @@ public interface IEnumerator
 class Countdown : IEnumerator
 {
     int count = 11;
-    public bool MoveNext () => count-- > 0;
-    public object Current   => count;
-    public void Reset()     { throw new NotSupportedException(); }
+    public bool MoveNext() => count-- > 0;
+    public object Current => count;
+
+    public void Reset()
+    {
+        throw new NotSupportedException();
+    }
 }

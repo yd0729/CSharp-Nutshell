@@ -2,19 +2,19 @@
 
 try
 {
-    Display (null);
+    Display(null);
 }
 catch (ArgumentNullException ex)
 {
-    Console.WriteLine ("Caught the exception");
+    Console.WriteLine("Caught the exception");
 }
 
-static void Display (string name)
+static void Display(string name)
 {
     if (name == null)
     {
-        throw new ArgumentNullException (nameof (name));
+        throw new ArgumentNullException(nameof(name));
     }
 
-    Console.WriteLine (name);
+    Console.WriteLine(name);
 }

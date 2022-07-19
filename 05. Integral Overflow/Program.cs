@@ -2,4 +2,4 @@
 
 int a = int.MinValue;
 a--;
-Console.WriteLine(a == int.MaxValue);  // True
+Console.WriteLine(a == int.MaxValue); // True

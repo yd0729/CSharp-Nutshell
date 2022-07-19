@@ -7,11 +7,11 @@ var stock2 = new Stock { CurrentPrice = 83.12M };
 
 public class Stock
 {
-	decimal currentPrice;           // The private "backing" field
+    decimal currentPrice; // The private "backing" field
 
-	public decimal CurrentPrice     // The public property
-	{
-		get { return currentPrice; }
-		set { currentPrice = value; }
-	}
+    public decimal CurrentPrice // The public property
+    {
+        get { return currentPrice; }
+        set { currentPrice = value; }
+    }
 }

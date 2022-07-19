@@ -3,7 +3,10 @@
 D1 d1 = Method1;
 // D2 d2 = d1;            // Compile-time error
 
-static void Method1() { }
+static void Method1()
+{
+}
 
 delegate void D1();
+
 delegate void D2();

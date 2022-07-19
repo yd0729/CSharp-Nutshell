@@ -8,7 +8,7 @@
         // because we've enabled just the annotation context:
         Console.Write(s2.Length);
     }
-    
+
     public static void Main()
     {
         // Now let's enable the warning context, too  

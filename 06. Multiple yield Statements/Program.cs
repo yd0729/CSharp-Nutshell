@@ -2,7 +2,7 @@
 
 foreach (string s in Foo())
 {
-    Console.WriteLine (s);         // Prints "One","Two","Three"
+    Console.WriteLine(s); // Prints "One","Two","Three"
 }
 
 IEnumerable<string> Foo()

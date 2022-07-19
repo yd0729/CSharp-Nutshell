@@ -9,7 +9,7 @@ var stock = new Stock
 stock.PriceChanged += PrintNewPrice;
 stock.Price = 31.59M;
 
-void PrintNewPrice (object? sender, EventArgs e)
+void PrintNewPrice(object? sender, EventArgs e)
 {
     if (sender != null)
     {
@@ -21,7 +21,7 @@ public class Stock
 {
     private decimal _price;
 
-    private EventHandler? _priceChanged;         // Declare a private delegate
+    private EventHandler? _priceChanged; // Declare a private delegate
 
     public event EventHandler? PriceChanged
     {
@@ -29,9 +29,9 @@ public class Stock
         remove => _priceChanged -= value; // Explicit accessor
     }
 
-    protected virtual void OnPriceChanged (EventArgs e)
+    protected virtual void OnPriceChanged(EventArgs e)
     {
-        _priceChanged?.Invoke (this, e);
+        _priceChanged?.Invoke(this, e);
     }
 
     public decimal Price
@@ -41,7 +41,7 @@ public class Stock
         {
             if (_price == value) return;
             _price = value;
-            OnPriceChanged (EventArgs.Empty);
+            OnPriceChanged(EventArgs.Empty);
         }
     }
 }

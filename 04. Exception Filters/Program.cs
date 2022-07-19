@@ -2,7 +2,7 @@
 
 try
 {
-    await new HttpClient().GetStringAsync ("http://www.albahari.com/x");
+    await new HttpClient().GetStringAsync("http://www.albahari.com/x");
 }
 catch (HttpRequestException ex) when (ex.StatusCode == HttpStatusCode.NotFound)
 {
@@ -12,7 +12,7 @@ catch (HttpRequestException ex) when (ex.StatusCode == HttpStatusCode.InternalSe
 {
     Console.WriteLine("Internal server error!");
 }
-catch (HttpRequestException ex) 
+catch (HttpRequestException ex)
 {
     Console.WriteLine($"Some other failure: {ex.StatusCode}");
 }

@@ -5,18 +5,18 @@
 
 static class StringHelper
 {
-    public static bool IsCapitalized (this string s)
+    public static bool IsCapitalized(this string s)
     {
         Console.WriteLine("StringHelper.IsCapitalized");
-        return char.IsUpper (s[0]);
+        return char.IsUpper(s[0]);
     }
 }
 
 static class EnumerableHelper
 {
-    public static bool IsCapitalized (this IEnumerable<char> s)
+    public static bool IsCapitalized(this IEnumerable<char> s)
     {
         Console.WriteLine("Enumerable.IsCapitalized");
-        return char.IsUpper (s.First());
+        return char.IsUpper(s.First());
     }
 }

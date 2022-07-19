@@ -4,7 +4,7 @@
 int? x = 5;
 int? y = 10;
 {
-    bool b = x < y;      // true
+    bool b = x < y; // true
 }
 // The above line is equivalent to:
 {

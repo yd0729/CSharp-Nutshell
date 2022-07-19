@@ -4,11 +4,11 @@ var stock = new Stock { CurrentPrice = 50, SharesOwned = 100 };
 
 public class Stock
 {
-	public decimal CurrentPrice { get; set; }   // Automatic property
-	public decimal SharesOwned { get; set; }    // Automatic property
+    public decimal CurrentPrice { get; set; } // Automatic property
+    public decimal SharesOwned { get; set; } // Automatic property
 
-	public decimal Worth
-	{
-		get { return CurrentPrice * SharesOwned; }
-	}
+    public decimal Worth
+    {
+        get { return CurrentPrice * SharesOwned; }
+    }
 }

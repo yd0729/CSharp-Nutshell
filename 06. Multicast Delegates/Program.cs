@@ -9,6 +9,6 @@ d -= SomeMethod1;
 d();
 
 void SomeMethod1() => Console.WriteLine("SomeMethod1");
-void SomeMethod2 () => Console.WriteLine("SomeMethod2");
+void SomeMethod2() => Console.WriteLine("SomeMethod2");
 
 delegate void SomeDelegate();

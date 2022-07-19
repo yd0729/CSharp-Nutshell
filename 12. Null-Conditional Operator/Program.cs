@@ -5,4 +5,4 @@ int? length = sb?.ToString().Length;
 
 // We can combine this with the null coalescing operator to evaluate to zero instead of null:
 
-int length2 = sb?.ToString().Length ?? 0;  // Evaluates to 0 if sb is null
+int length2 = sb?.ToString().Length ?? 0; // Evaluates to 0 if sb is null

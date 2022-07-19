@@ -4,12 +4,12 @@
 string[] strings = { "a", "b", null, "c" };
 foreach (string s in strings.StripNulls())
 {
-    Console.WriteLine (s);
+    Console.WriteLine(s);
 }
 
 static class Test
 {
-    public static IEnumerable<T> StripNulls<T> (this IEnumerable<T> seq)
+    public static IEnumerable<T> StripNulls<T>(this IEnumerable<T> seq)
     {
         foreach (T t in seq)
         {

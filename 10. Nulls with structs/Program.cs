@@ -1,6 +1,9 @@
 ﻿// A value type cannot ordinarily have a null value:
 
-public struct Point { public int X, Y; }
+public struct Point
+{
+    public int X, Y;
+}
 
 // See "Nullable Types" in Chapter 4 for a workaround.
 

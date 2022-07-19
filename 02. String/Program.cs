@@ -1,4 +1,5 @@
 ﻿// String literals
+
 {
     // A string literal is specified inside double quotes:
     string h = "Heat";
@@ -7,7 +8,7 @@
     // follow value-type semantics:
     string a = "test";
     string b = "test";
-    Console.WriteLine(a == b);  // True
+    Console.WriteLine(a == b); // True
 
     // The escape sequences that are valid for char literals also work inside strings:
     string t = "Here's a tab:\t";
@@ -24,7 +25,7 @@
 Second Line";
 
     // Assuming your IDE uses CR-LF line separators:
-    Console.WriteLine(escaped == verbatim);  // True
+    Console.WriteLine(escaped == verbatim); // True
 
     // You can include the double-quote character in a verbatim literal by writing it twice:
     string xml = @"<customer id=""123""></customer>";
@@ -36,7 +37,7 @@ Second Line";
     string s1 = "a" + "b";
 
     // The righthand operand may be a nonstring value, in which case ToString is called on that value:
-    string s2 = "a" + 5;   // a5
+    string s2 = "a" + 5; // a5
 }
 
 // String ingerpolation
@@ -44,9 +45,9 @@ Second Line";
     // A string preceded with the $ character is an interpolated string:
 
     int x = 4;
-    Console.WriteLine($"A square has {x} sides");    // Prints: A square has 4 sides
+    Console.WriteLine($"A square has {x} sides"); // Prints: A square has 4 sides
 
-    string s = $"255 in hex is {byte.MaxValue:X2}";   // X2 = 2-digit Hexadecimal
+    string s = $"255 in hex is {byte.MaxValue:X2}"; // X2 = 2-digit Hexadecimal
 
     x = 2;
     s = $@"this spans {x} lines";

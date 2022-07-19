@@ -6,10 +6,13 @@ int x;
 // Array elements are automatically initialized:
 
 int[] ints = new int[2];
-Console.WriteLine(ints[0]);    // 0
+Console.WriteLine(ints[0]); // 0
 
 // Fields are automatically initialized:
 
-Console.WriteLine(Test.X);   // 0
+Console.WriteLine(Test.X); // 0
 
-class Test { public static int X; }   // field
+class Test
+{
+    public static int X;
+} // field

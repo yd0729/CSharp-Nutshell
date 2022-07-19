@@ -3,9 +3,9 @@
 
 var s = new Stock { SharesOwned = 200, CurrentPrice = 123.45M }.NetValue;
 
-public abstract class Asset		// Note abstract keyword
+public abstract class Asset // Note abstract keyword
 {
-    public abstract decimal NetValue { get; }	// Note empty implementation
+    public abstract decimal NetValue { get; } // Note empty implementation
 }
 
 public class Stock : Asset
@@ -14,5 +14,5 @@ public class Stock : Asset
     public decimal CurrentPrice;
 
     // Override like a virtual method.
-    public override decimal NetValue => CurrentPrice * SharesOwned; 
+    public override decimal NetValue => CurrentPrice * SharesOwned;
 }

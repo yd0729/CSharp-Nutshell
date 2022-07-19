@@ -18,6 +18,7 @@ public class Util
             values[i] = transformer(values[i]);
         }
     }
+
     public static void Print<T>(T[] values, Action<T> printer)
     {
         foreach (var value in values)

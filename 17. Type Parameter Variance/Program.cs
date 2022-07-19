@@ -15,5 +15,5 @@ Func<object> y = x;
 
 This makes the following legal:  */
 
-Action<object> x2 = o => Console.WriteLine (o);
+Action<object> x2 = o => Console.WriteLine(o);
 Action<string> y2 = x2;

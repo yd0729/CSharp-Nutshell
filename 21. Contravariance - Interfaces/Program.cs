@@ -10,4 +10,4 @@ public interface IComparer<in T>
 
 var objectComparer = Comparer<object>.Default;
 IComparer<string> stringComparer = objectComparer;
-int result = stringComparer.Compare ("Brett", "Jemaine");
+int result = stringComparer.Compare("Brett", "Jemaine");

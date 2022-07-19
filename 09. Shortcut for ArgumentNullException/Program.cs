@@ -2,15 +2,15 @@
 
 try
 {
-    Display (null);
+    Display(null);
 }
 catch (ArgumentNullException ex)
 {
     Console.WriteLine($"Caught the exception: {ex.Message}");
 }
 
-void Display (string name)
+void Display(string name)
 {
-    ArgumentNullException.ThrowIfNull (name);
-    Console.WriteLine (name);
+    ArgumentNullException.ThrowIfNull(name);
+    Console.WriteLine(name);
 }

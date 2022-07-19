@@ -2,7 +2,6 @@
 {
     public static void Main(string[] args)
     {
-        
     }
 }
 
@@ -11,12 +10,11 @@
 public class Customer
 {
     /*...*/
-    public decimal? AccountBalance;	// Works well with SQL's nullable column
+    public decimal? AccountBalance; // Works well with SQL's nullable column
 }
 
 public class Color
 {
-    
 }
 
 // Color is an ambient property:

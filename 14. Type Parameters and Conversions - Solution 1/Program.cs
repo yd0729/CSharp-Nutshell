@@ -3,11 +3,11 @@
 
 using System.Text;
 
-StringBuilder Foo<T> (T arg)
+StringBuilder Foo<T>(T arg)
 {
     StringBuilder sb = arg as StringBuilder;
     if (sb != null) return sb;
-	
+
     /*...*/
     return null;
 }

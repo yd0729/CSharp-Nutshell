@@ -2,8 +2,10 @@
 
 D d1 = Method1;
 D d2 = Method1;
-Console.WriteLine (d1 == d2);         // True
+Console.WriteLine(d1 == d2); // True
 
-static void Method1() { }
+static void Method1()
+{
+}
 
 delegate void D();

@@ -4,27 +4,29 @@ var stock = new Stock { CurrentPrice = 50, SharesOwned = 100 };
 
 public class Stock
 {
-	decimal currentPrice;           // The private "backing" field
-	public decimal CurrentPrice     // The public property
-	{
-		get { return currentPrice; }
-		set { currentPrice = value; }
-	}
+    decimal currentPrice; // The private "backing" field
 
-	decimal sharesOwned;           // The private "backing" field
-	public decimal SharesOwned     // The public property
-	{
-		get { return sharesOwned; }
-		set { sharesOwned = value; }
-	}
+    public decimal CurrentPrice // The public property
+    {
+        get { return currentPrice; }
+        set { currentPrice = value; }
+    }
 
-	public decimal Worth => currentPrice * sharesOwned;    // Expression-bodied property
+    decimal sharesOwned; // The private "backing" field
 
-	// From C# 7, we can take this further, and write both the get and set accessors in
-	// expression-bodied syntax:
-	public decimal Worth2
-	{
-		get => currentPrice * sharesOwned;
-		set => sharesOwned = value / currentPrice;
-	}
+    public decimal SharesOwned // The public property
+    {
+        get { return sharesOwned; }
+        set { sharesOwned = value; }
+    }
+
+    public decimal Worth => currentPrice * sharesOwned; // Expression-bodied property
+
+    // From C# 7, we can take this further, and write both the get and set accessors in
+    // expression-bodied syntax:
+    public decimal Worth2
+    {
+        get => currentPrice * sharesOwned;
+        set => sharesOwned = value / currentPrice;
+    }
 }

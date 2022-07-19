@@ -16,8 +16,14 @@ public class Bunny
     public bool LikesCarrots;
     public bool LikesHumans;
 
-    public Bunny() { }
-    public Bunny(string n) { Name = n; }
+    public Bunny()
+    {
+    }
+
+    public Bunny(string n)
+    {
+        Name = n;
+    }
 
     public Bunny(string name, bool likesCarrots = false, bool likesHumans = false)
     {

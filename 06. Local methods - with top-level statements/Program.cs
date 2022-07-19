@@ -5,4 +5,4 @@ int x = 3;
 Foo();
 
 // Foo is a local method
-void Foo() => Console.WriteLine(x);    // We can access x
+void Foo() => Console.WriteLine(x); // We can access x

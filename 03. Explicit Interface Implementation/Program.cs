@@ -2,23 +2,30 @@
 // You can resolve such collisions by explicitly implementing an interface member:
 
 Widget w = new Widget();
-w.Foo();                      // Widget's implementation of I1.Foo
-((I1)w).Foo();                // Widget's implementation of I1.Foo
-((I2)w).Foo();                // Widget's implementation of I2.Foo
+w.Foo(); // Widget's implementation of I1.Foo
+((I1)w).Foo(); // Widget's implementation of I1.Foo
+((I2)w).Foo(); // Widget's implementation of I2.Foo
 
-interface I1 { void Foo(); }
-interface I2 { int Foo(); }
+interface I1
+{
+    void Foo();
+}
+
+interface I2
+{
+    int Foo();
+}
 
 public class Widget : I1, I2
 {
-    public void Foo ()
+    public void Foo()
     {
-        Console.WriteLine ("Widget's implementation of I1.Foo");
+        Console.WriteLine("Widget's implementation of I1.Foo");
     }
-	
+
     int I2.Foo()
     {
-        Console.WriteLine ("Widget's implementation of I2.Foo");
+        Console.WriteLine("Widget's implementation of I2.Foo");
         return 42;
     }
 }

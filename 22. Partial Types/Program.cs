@@ -2,5 +2,12 @@
 
 var p = new PaymentForm { X = 3, Y = 4 };
 
-partial class PaymentForm { public int X; }
-partial class PaymentForm { public int Y; }
+partial class PaymentForm
+{
+    public int X;
+}
+
+partial class PaymentForm
+{
+    public int Y;
+}

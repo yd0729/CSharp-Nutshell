@@ -1,4 +1,4 @@
-﻿Console.WriteLine(typeof (Outer.Middle.Inner.Class1).FullName);
+﻿Console.WriteLine(typeof(Outer.Middle.Inner.Class1).FullName);
 
 namespace Outer
 {
@@ -6,8 +6,13 @@ namespace Outer
     {
         namespace Inner
         {
-            class Class1 { }
-            class Class2 { }
+            class Class1
+            {
+            }
+
+            class Class2
+            {
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿// switch Statements
+
 {
     // switch statements may result in cleaner code than multiple if statements:
 
@@ -19,9 +20,9 @@
             case 11:
                 Console.WriteLine("Jack");
                 break;
-            case -1:                // Joker is -1.
-                goto case 12;       // In this game joker counts as queen.
-            default:                // Executes for any other cardNumber.
+            case -1: // Joker is -1.
+                goto case 12; // In this game joker counts as queen.
+            default: // Executes for any other cardNumber.
                 Console.WriteLine(cardNumber);
                 break;
         }
@@ -55,7 +56,7 @@
     TellMeTheType("hello");
     TellMeTheType(true);
 
-    void TellMeTheType(object x)   // object allows any type.
+    void TellMeTheType(object x) // object allows any type.
     {
         switch (x)
         {
@@ -80,7 +81,7 @@
 
     switch (x)
     {
-        case bool b when b == true:     // Fires only when b is true
+        case bool b when b == true: // Fires only when b is true
             Console.WriteLine("True!");
             break;
         case bool b:
@@ -112,11 +113,11 @@
         13 => "King",
         12 => "Queen",
         11 => "Jack",
-        _ => "Pip card"   // equivalent to 'default'
+        _ => "Pip card" // equivalent to 'default'
     };
 
     string suite = "spades";
-    string cardName2 = (cardNumber, suite) switch   // tuple pattern
+    string cardName2 = (cardNumber, suite) switch // tuple pattern
     {
         (13, "spades") => "King of spades",
         (13, "clubs") => "King of clubs",

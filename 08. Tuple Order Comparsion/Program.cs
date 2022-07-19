@@ -6,7 +6,7 @@
     ("A", 20)
 };
 
-foreach (var tuple in tuples.OrderBy (x => x))
+foreach (var tuple in tuples.OrderBy(x => x))
 {
     Console.WriteLine($"{tuple.Item1} {tuple.Item2}");
 }

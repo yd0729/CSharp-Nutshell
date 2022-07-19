@@ -1,6 +1,7 @@
 ﻿// Type parameters can be introduced in the declaration of classes, structs, interfaces,
 // delegates (covered in Chapter 4), and methods:
 // To instantiate:
+
 Dictionary<int, string> myDic = new Dictionary<int, string>();
 
 // Or:
@@ -12,11 +13,22 @@ struct Nullable<T>
 }
 
 // A generic type or method can have multiple parameters:
-class Dictionary<TKey, TValue> { /*...*/ }
+class Dictionary<TKey, TValue>
+{
+    /*...*/
+}
 
 
 // Generic type names and method names can be overloaded as long as the number of type
 // parameters is different:
-class A { }
-class A<T> { }
-class A<T1, T2> { }
+class A
+{
+}
+
+class A<T>
+{
+}
+
+class A<T1, T2>
+{
+}

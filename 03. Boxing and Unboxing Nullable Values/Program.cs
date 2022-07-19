@@ -3,4 +3,4 @@
 
 object o = "string";
 int? x = o as int?;
-Console.WriteLine (x.HasValue);   // False
+Console.WriteLine(x.HasValue); // False

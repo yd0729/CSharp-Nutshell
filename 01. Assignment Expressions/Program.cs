@@ -5,5 +5,5 @@ int x, y;
 
 y = 5 * (x = 2);
 
-x *= 2;    // equivalent to x = x * 2
-x <<= 1;   // equivalent to x = x << 1
+x *= 2; // equivalent to x = x * 2
+x <<= 1; // equivalent to x = x << 1

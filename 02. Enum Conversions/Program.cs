@@ -8,9 +8,15 @@ bool leftOrRight = (int)side <= 2;
 
 HorizontalAlignment h = (HorizontalAlignment)BorderSide.Right;
 
-BorderSide b = 0;    // No cast required with the 0 literal.
+BorderSide b = 0; // No cast required with the 0 literal.
 
-public enum BorderSide { Left, Right, Top, Bottom }
+public enum BorderSide
+{
+    Left,
+    Right,
+    Top,
+    Bottom
+}
 
 public enum HorizontalAlignment
 {

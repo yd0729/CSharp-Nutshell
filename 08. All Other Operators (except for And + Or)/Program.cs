@@ -8,6 +8,6 @@ int? y = null;
 // Translation:
 {
     int? c = (x.HasValue && y.HasValue)
-        ? (int?) (x.Value + y.Value) 
+        ? (int?)(x.Value + y.Value)
         : null;
 }

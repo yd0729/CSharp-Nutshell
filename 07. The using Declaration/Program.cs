@@ -1,7 +1,7 @@
-﻿if (File.Exists ("file.txt"))
+﻿if (File.Exists("file.txt"))
 {
-    using var reader = File.OpenText ("file.txt");
-    Console.WriteLine (reader.ReadLine());
+    using var reader = File.OpenText("file.txt");
+    Console.WriteLine(reader.ReadLine());
 }
 
 // reader is now disposed

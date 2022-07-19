@@ -4,11 +4,11 @@
 using System.Text;
 
 var builders = new StringBuilder [100];
-Initialize (builders);
+Initialize(builders);
 Console.WriteLine(builders[37]);
 
-static void Initialize<T> (T[] array) where T : new()
+static void Initialize<T>(T[] array) where T : new()
 {
     for (int i = 0; i < array.Length; i++)
-        array [i] = new T();
+        array[i] = new T();
 }

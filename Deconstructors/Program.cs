@@ -1,10 +1,11 @@
 ﻿// To call the deconstructor, we use the following special syntax:
+
 var rect = new Rectangle(3, 4);
-(float width, float height) = rect;          // Deconstruction
-Console.WriteLine(width + " " + height);     // 3 4
+(float width, float height) = rect; // Deconstruction
+Console.WriteLine(width + " " + height); // 3 4
 
 // We can also use implicit typing:  
-var (x, y) = rect;          // Deconstruction
+var (x, y) = rect; // Deconstruction
 Console.WriteLine(x + " " + y);
 
 // If the variables already exist, we can do a *deconstructing assignment*:

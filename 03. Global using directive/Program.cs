@@ -3,16 +3,21 @@
 
 global using Outer.Middle.Inner;
 
-Class1 c;    // Don’t need fully qualified name
+Class1 c; // Don’t need fully qualified name
 
 namespace Outer
 {
-	namespace Middle
-	{
-		namespace Inner
-		{
-			class Class1 { }
-			class Class2 { }
-		}
-	}
+    namespace Middle
+    {
+        namespace Inner
+        {
+            class Class1
+            {
+            }
+
+            class Class2
+            {
+            }
+        }
+    }
 }

@@ -21,7 +21,7 @@
     }
 
     {
-        int y;            // OK - y not in scope
+        int y; // OK - y not in scope
     }
 
     //Console.Write(y);  // Error - y is out of scope

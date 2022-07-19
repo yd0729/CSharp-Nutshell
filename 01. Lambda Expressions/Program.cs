@@ -3,30 +3,30 @@
 //   (parameters) => expression-or-statement-block
 
 Transformer sqr = x => x * x;
-Console.WriteLine (sqr (3));    // 9
+Console.WriteLine(sqr(3)); // 9
 
 // Using a statement block instead:
 Transformer sqrBlock = x => { return x * x; };
-Console.WriteLine (sqr (3));
+Console.WriteLine(sqr(3));
 
 // Using a generic System.Func delegate:
 Func<int, int> sqrFunc = x => x * x;
-Console.WriteLine (sqrFunc (3));
+Console.WriteLine(sqrFunc(3));
 
 // Zero arguments:
 Func<string> greeter = () => "Hello, world";
-Console.WriteLine (greeter());
+Console.WriteLine(greeter());
 
 // With implicit typing (from C# 10):
 var greeter2 = () => "Hello, world";
-Console.WriteLine (greeter2());
+Console.WriteLine(greeter2());
 
 // Using multiple arguments:
 Func<string, string, int> totalLength = (s1, s2) => s1.Length + s2.Length;
-int total = totalLength ("hello", "world");
+int total = totalLength("hello", "world");
 
 // Explicitly specifying parameter types:
 Func<int, int> sqrExplicit = (int x) => x * x;
-Console.WriteLine (sqrFunc (3));
+Console.WriteLine(sqrFunc(3));
 
-delegate int Transformer (int i);
+delegate int Transformer(int i);

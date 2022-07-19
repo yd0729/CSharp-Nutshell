@@ -5,18 +5,23 @@ var t = new Test();
 
 public partial class Test
 {
-	public partial void M1();    // Extended partial method
-	private partial void M2();   // Extended partial method
+    public partial void M1(); // Extended partial method
+    private partial void M2(); // Extended partial method
 
-	public partial bool IsValid(string identifier);
-	internal partial bool TryParse(string number, out int result);
+    public partial bool IsValid(string identifier);
+    internal partial bool TryParse(string number, out int result);
 }
 
 public partial class Test
 {
-	public partial void M1() { }
-	private partial void M2() { }
+    public partial void M1()
+    {
+    }
 
-	public partial bool IsValid(string identifier) => !string.IsNullOrEmpty(identifier);
-	internal partial bool TryParse(string number, out int result) => int.TryParse(number, out result);
+    private partial void M2()
+    {
+    }
+
+    public partial bool IsValid(string identifier) => !string.IsNullOrEmpty(identifier);
+    internal partial bool TryParse(string number, out int result) => int.TryParse(number, out result);
 }

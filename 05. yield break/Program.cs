@@ -3,10 +3,10 @@
 
 foreach (string s in Foo(true))
 {
-    Console.WriteLine (s);
+    Console.WriteLine(s);
 }
 
-static IEnumerable<string> Foo (bool breakEarly)
+static IEnumerable<string> Foo(bool breakEarly)
 {
     yield return "One";
     yield return "Two";

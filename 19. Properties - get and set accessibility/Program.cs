@@ -2,20 +2,21 @@
 
 public class Foo
 {
-	private decimal x;
-	public decimal X
-	{
-		get { return x; }
-		private set { x = Math.Round(value, 2); }
-	}
+    private decimal x;
 
-	public int Auto { get; private set; }   // Automatic property
+    public decimal X
+    {
+        get { return x; }
+        private set { x = Math.Round(value, 2); }
+    }
+
+    public int Auto { get; private set; } // Automatic property
 }
 
 class Program
 {
-	public static void Main()
-	{
-		// var f = new Foo { X = 5 };      // Will not compile - X has a private set accessor.
-	}
+    public static void Main()
+    {
+        // var f = new Foo { X = 5 };      // Will not compile - X has a private set accessor.
+    }
 }

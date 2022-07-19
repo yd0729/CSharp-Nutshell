@@ -3,4 +3,4 @@
 
 int? a = null;
 int b = 2;
-int? c = a + b;   // c is null - equivalent to a + (int?)b
+int? c = a + b; // c is null - equivalent to a + (int?)b
