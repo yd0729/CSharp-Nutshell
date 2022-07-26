@@ -1,9 +1,9 @@
 ﻿foreach (char c in "gfdx")
 {
-    Format (c.ToString());
+    Format(c.ToString());
 }
 
-void Format (string formatString)
+void Format(string formatString)
 {
-    Console.WriteLine($"ToString (\"{formatString}\") : {ConsoleColor.Red.ToString (formatString)}");
+    Console.WriteLine($"ToString (\"{formatString}\") : {ConsoleColor.Red.ToString(formatString)}");
 }
